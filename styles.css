@@ -1,0 +1,21 @@
+/*footer*/
+footer {
+    background-color: #DAA520; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 15px 0; /* Espaciado */
+    font-size: 14px; /* Tamaño de fuente */
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a {
+    color: #f39c12; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Nuestros Productos</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Encabezado -->
+    <header class="bg-yellow-600 py-4 shadow-md">
+        <nav class="flex items-center justify-center">
+            <div class="logo mr-5">
+                <img src="/imagenes/icono.png" alt="Logo de la compañía" class="h-12">
+            </div>
+            <ul class="flex list-none m-0 p-0">
+                <li class="mx-5 relative cursor-pointer">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="../index.html">Inicio</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg bg-gray-800 px-2 py-1 rounded" href="/paginas/nuestrosproductos.html">Nuestros productos</a>
+                
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/ofertasypromociones.html">Oferta y promociones</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/preguntasfrecuentes.html">Preguntas frecuentes</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/sobrenosotros.html">Acerca de nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Sección de productos -->
+    <main class="p-8">
+        <h1 class="text-3xl font-bold mb-6">Nuestros Productos</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/imagenes/switch.jpg" alt="Producto 1" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold">Switch</h2>
+                    <p class="text-gray-700">Deliciosa bebida de vodka sabor frutos exóticos.</p>
+                    <p class="text-yellow-600 font-bold mt-2">$19.99</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/imagenes/vodka.jpg" alt="Producto 2" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold">Vodka</h2>
+                    <p class="text-gray-700">El vodka es un aguardiente transparente, incoloro e inodoro.</p>
+                    <p class="text-yellow-600 font-bold mt-2">$29.99</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/imagenes/zhumir.png" alt="Producto 3" class="w-full h-48 object-contain">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold">Zhumir</h2>
+                    <p class="text-gray-700">Es una línea de rones que fusiona el origen de nuestra madera y caña, dando como resultado rones jóvenes y extra añejos provenientes de la Cava Zhumir.</p>
+                    <p class="text-yellow-600 font-bold mt-2">$39.99</p>
+                </div>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-yellow-600 text-white text-center py-4 text-sm absolute bottom-0 w-full">
+        <p>&copy; 2024 Licorería Lalangui. Todos los derechos reservados.</p>
+        <p>Debe tener al menos 18 años para comprar alcohol. Consuma con moderación.</p>
+    </footer>
+
+</body>
+</html>

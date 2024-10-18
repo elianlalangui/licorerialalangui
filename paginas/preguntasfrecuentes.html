@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Nuestros Productos</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Encabezado -->
+    <header class="bg-yellow-600 py-4 shadow-md">
+        <nav class="flex items-center justify-center">
+            <div class="logo mr-5">
+                <img src="/imagenes/icono.png" alt="Logo de la compañía" class="h-12">
+            </div>
+            <ul class="flex list-none m-0 p-0">
+                <li class="mx-5 relative cursor-pointer">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="../index.html">Inicio</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/nuestrosproductos.html">Nuestros productos</a>
+                
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/ofertasypromociones.html">Oferta y promociones</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg bg-gray-800 px-2 py-1 rounded" href="/paginas/preguntasfrecuentes.html">Preguntas frecuentes</a>
+                </li>
+                <li class="mx-5 relative cursor-pointer group">
+                    <a class="text-white text-lg transition duration-300 transform hover:bg-gray-700 px-2 py-1 rounded" href="/paginas/sobrenosotros.html">Acerca de nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-8">
+        <h1 class="text-3xl font-bold mb-6">Preguntas Frecuentes</h1>
+        <div class="space-y-4">
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="flex justify-between items-center p-4 cursor-pointer" onclick="toggleAccordion('faq1')">
+                    <h2 class="text-lg font-semibold">¿Cuáles son los métodos de pago aceptados?</h2>
+                    <span id="faq1-icon" class="text-yellow-600">&#x25BC;</span>
+                </div>
+                <div id="faq1" class="hidden p-4 text-gray-700">
+                    Aceptamos tarjetas de crédito, débito y pagos en efectivo al momento de la entrega.
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="flex justify-between items-center p-4 cursor-pointer" onclick="toggleAccordion('faq2')">
+                    <h2 class="text-lg font-semibold">¿Hacen entregas a domicilio?</h2>
+                    <span id="faq2-icon" class="text-yellow-600">&#x25BC;</span>
+                </div>
+                <div id="faq2" class="hidden p-4 text-gray-700">
+                    Sí, ofrecemos servicio de entrega a domicilio en ciertas áreas. Consulta nuestra página de entrega para más detalles.
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <div class="flex justify-between items-center p-4 cursor-pointer" onclick="toggleAccordion('faq3')">
+                    <h2 class="text-lg font-semibold">¿Cómo puedo realizar un pedido?</h2>
+                    <span id="faq3-icon" class="text-yellow-600">&#x25BC;</span>
+                </div>
+                <div id="faq3" class="hidden p-4 text-gray-700">
+                    Puedes realizar un pedido a través de nuestro sitio web o llamándonos directamente.
+                </div>
+            </div>
+            <!-- Agrega más preguntas aquí -->
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-yellow-600 text-white text-center py-4 text-sm absolute bottom-0 w-full">
+        <p>&copy; 2024 Licorería Lalangui. Todos los derechos reservados.</p>
+        <p>Debe tener al menos 18 años para comprar alcohol. Consuma con moderación.</p>
+    </footer>
+
+</body>
+</html>
